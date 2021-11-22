@@ -40,7 +40,7 @@ public class Book implements Serializable {
 	private String author;
 
 	@NotEmpty(message = "Description is required.")
-	@Length(min = 10, max = 1000, message = "Description must be between 3 and 1000 characters.")
+	@Length(min = 10, max = 1000, message = "Description must be between 10 and 5000 characters.")
 	@Schema(description = "This is the book's description", example = "The book 'How to stop worrying & start living' suggest many ways to conquer worry and lead a wonderful life.", required = true)
 	private String description;
 

@@ -1,15 +1,14 @@
 package com.gustavohmcaldas.bookstore.service;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
 import com.gustavohmcaldas.bookstore.domain.Category;
 import com.gustavohmcaldas.bookstore.dto.CategoryDTO;
 import com.gustavohmcaldas.bookstore.repository.CategoryRepository;
-import com.gustavohmcaldas.bookstore.service.exceptions.ObjectNotFoundException;
 import com.gustavohmcaldas.bookstore.service.exceptions.DataIntegrityViolationException;
+import com.gustavohmcaldas.bookstore.service.exceptions.ObjectNotFoundException;
 
 import lombok.RequiredArgsConstructor;
 
